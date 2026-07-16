@@ -259,7 +259,8 @@ function saveCustomPaths(data) {
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1200, height: 800, minWidth: 900, minHeight: 600,
-    frame: false, transparent: true,
+    frame: false,
+    backgroundColor: '#0d0a0e',
     icon: path.join(__dirname, 'assets/icon.ico'),
     webPreferences: {
       nodeIntegration: true,
